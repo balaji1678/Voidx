@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   background-color: #0d0d0d;
@@ -17,13 +18,30 @@ body {
   color: #00ffff;
   font-size: 1.8rem;
   text-shadow: 0 0 5px #00ffff;
+  margin-left: 5px;
   
+  
+}
+.navbar,.logo:hover{
+  transition: 0.3s;
+  
+}
+#text{
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   gap: 1.5rem;
+}
+.logo a{
+  text-decoration: none;
+  color: #0ff;
+  display: flex;
+  align-items: center;
+  
 }
 
 .nav-links a {
@@ -32,6 +50,32 @@ body {
   font-weight: bold;
   position: relative;
   transition: color 0.3s;
+}
+.logo-img {
+  height: 60px; /* Change size as needed */
+  filter: drop-shadow(0 0 5px #0ff);
+  margin-right: 2rem;
+  border-radius: 50px;
+  display: flex;
+  
+}
+header{
+  color: whitesmoke;
+ text-align: center;
+ padding: 100px 20px;
+ background: linear-gradient(135deg, #00fefb, #00c9ff, #007cf0);
+ 
+}
+.btn{
+  padding: 10px 20px;
+  background-color: white ;
+  color: black;
+  border-radius: 5px;
+  
+  text-decoration: none;
+}
+#id{
+  font-weight: 100;
 }
 
 .nav-links a::after {
@@ -54,4 +98,24 @@ body {
 .nav-links a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+img{
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  
+  
+}
+.log{
+  margin-bottom:1px;
+  
+}
+ 
+
+.foot{
+  padding-top: 500px;
+  color: whitesmoke;
+  text-align: center;
+  
 }
